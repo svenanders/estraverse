@@ -828,7 +828,7 @@
         return tree;
     }
 
-    exports.version = require('./package.json').version;
+    exports.version = "4.1.1";
     exports.Syntax = Syntax;
     exports.traverse = traverse;
     exports.replace = replace;
